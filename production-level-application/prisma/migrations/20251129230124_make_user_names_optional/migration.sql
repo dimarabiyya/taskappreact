@@ -1,0 +1,6 @@
+-- AlterTable
+ALTER TABLE "Task" ALTER COLUMN "createdAt" SET DEFAULT NOW();
+
+-- AlterTable
+ALTER TABLE "User" ALTER COLUMN "firstName" DROP NOT NULL,
+ALTER COLUMN "secondName" DROP NOT NULL;
